@@ -1,0 +1,125 @@
+font-family: 'Montserrat', sans-serif;
+.navbar-light .navbar-nav .nav-link{
+    color: #204f87;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #204f87 ;
+}
+.banner{
+    background-image: url(../images/lawyer_pro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hg{
+    min-height: 90vh;
+    align-items: center;
+}
+.banner h1{
+    color: white;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.who-we-are{
+
+}
+.who-we-are h1{
+    color: #204f87;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.who-we-are p{
+    color: #b0b0b1;
+
+}
+.who-we-are span{
+    display: block;
+    height: 5px;
+    width: 0px;
+    background-color: #f2622b;
+    transition: .4s all ease-in-out;
+}
+.who-we-are:hover span{
+    width: 50px;
+}
+.what-we-do{
+    background-color: #f8f8f8;
+
+}
+.what-we-do h1{
+    text-transform: uppercase;
+    color: #204f87;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.what-we-do span{
+    display: inline-block;
+    height: 5px;
+    width: 0px;
+    background: #f2622b ;
+    transition: .4s all ease-in-out;
+}
+.what-we-do:hover span{
+    width: 50px;
+}
+.we-do{
+    position: relative;
+}
+.we-do::before{
+    content: '';
+    position: absolute;
+    bottom:0;
+    left:0;
+    height: 0;
+    width:100%;
+    transition: .4s ease-in-out;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,28377e+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(125,185,232,0) 0%, rgba(40,55,126,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(125,185,232,0) 0%,rgba(40,55,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(125,185,232,0) 0%,rgba(40,55,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#28377e',GradientType=0 ); /* IE6-9 */
+
+
+}
+.we-do:hover::before{
+    height: 100%;
+}
+.content{
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform:translate(-50%,-50%); 
+    text-transform: uppercase;
+    opacity: 0;
+    transition: .4s ease-in-out;
+}
+.content h1{
+    font-size: 21px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.we-do:hover .content{
+    opacity: 1;
+    top: 50%;
+} 
+.icon{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 40px;
+}
+.we-do:hover .icon{
+    left: 50%;
+    opacity: ;
+}
+    
